@@ -7,12 +7,12 @@
 
 import Foundation
 
-class NutrientDetailModel {
-    var label: String
-    var quantity: Double
-    var unit: String
+public class NutrientDetailModel {
+    public var label: String
+    public var quantity: Double
+    public var unit: String
 
-    init(_ entity: NutrientDetailResponse?) {
+    public init(_ entity: NutrientDetailResponse?) {
         self.label = entity?.label ?? ""
         self.quantity = entity?.quantity ?? 0
         self.unit = entity?.unit ?? ""

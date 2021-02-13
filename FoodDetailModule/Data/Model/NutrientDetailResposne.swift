@@ -7,8 +7,8 @@
 
 import Foundation
 
-class NutrientDetailResponse: Codable {
-    var label: String?
-    var quantity: Double?
-    var unit: String?
+public class NutrientDetailResponse: Codable {
+    public var label: String?
+    public var quantity: Double?
+    public var unit: String?
 }
