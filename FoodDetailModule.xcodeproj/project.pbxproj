@@ -10,6 +10,17 @@
 		B53C7CF125D7FB6100D29C31 /* FoodDetailModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C7CE725D7FB6000D29C31 /* FoodDetailModule.framework */; };
 		B53C7CF625D7FB6100D29C31 /* FoodDetailModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7CF525D7FB6100D29C31 /* FoodDetailModuleTests.swift */; };
 		B53C7CF825D7FB6100D29C31 /* FoodDetailModule.h in Headers */ = {isa = PBXBuildFile; fileRef = B53C7CEA25D7FB6000D29C31 /* FoodDetailModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53C7D0825D7FB9900D29C31 /* FoodDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D0725D7FB9900D29C31 /* FoodDetailResponse.swift */; };
+		B53C7D0C25D7FBB900D29C31 /* NutrientDetailResposne.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D0B25D7FBB900D29C31 /* NutrientDetailResposne.swift */; };
+		B53C7D1225D7FBFB00D29C31 /* FoodRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D1125D7FBFB00D29C31 /* FoodRepository.swift */; };
+		B53C7D1625D7FC3E00D29C31 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D1525D7FC3E00D29C31 /* RemoteDataSource.swift */; };
+		B53C7D1B25D7FCA600D29C31 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D1A25D7FCA600D29C31 /* Endpoint.swift */; };
+		B53C7D2125D7FCAD00D29C31 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D2025D7FCAD00D29C31 /* Constant.swift */; };
+		B53C7D2525D7FCB300D29C31 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D2425D7FCB300D29C31 /* Helper.swift */; };
+		B53C7D2A25D7FD0800D29C31 /* FoodDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D2925D7FD0800D29C31 /* FoodDetailModel.swift */; };
+		B53C7D3125D7FD6B00D29C31 /* FoodInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D3025D7FD6B00D29C31 /* FoodInteractor.swift */; };
+		B53C7D3625D7FDBA00D29C31 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D3525D7FDBA00D29C31 /* Injection.swift */; };
+		B53C7D3D25D7FE4A00D29C31 /* FoodPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D3C25D7FE4A00D29C31 /* FoodPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,17 @@
 		B53C7CF025D7FB6100D29C31 /* FoodDetailModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDetailModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B53C7CF525D7FB6100D29C31 /* FoodDetailModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailModuleTests.swift; sourceTree = "<group>"; };
 		B53C7CF725D7FB6100D29C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B53C7D0725D7FB9900D29C31 /* FoodDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailResponse.swift; sourceTree = "<group>"; };
+		B53C7D0B25D7FBB900D29C31 /* NutrientDetailResposne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientDetailResposne.swift; sourceTree = "<group>"; };
+		B53C7D1125D7FBFB00D29C31 /* FoodRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodRepository.swift; sourceTree = "<group>"; };
+		B53C7D1525D7FC3E00D29C31 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		B53C7D1A25D7FCA600D29C31 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		B53C7D2025D7FCAD00D29C31 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		B53C7D2425D7FCB300D29C31 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		B53C7D2925D7FD0800D29C31 /* FoodDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailModel.swift; sourceTree = "<group>"; };
+		B53C7D3025D7FD6B00D29C31 /* FoodInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInteractor.swift; sourceTree = "<group>"; };
+		B53C7D3525D7FDBA00D29C31 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		B53C7D3C25D7FE4A00D29C31 /* FoodPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,9 @@
 		B53C7CE925D7FB6000D29C31 /* FoodDetailModule */ = {
 			isa = PBXGroup;
 			children = (
+				B53C7D0325D7FB6600D29C31 /* Data */,
+				B53C7D0425D7FB6A00D29C31 /* Domain */,
+				B53C7D0525D7FB7200D29C31 /* Presentation */,
 				B53C7CEA25D7FB6000D29C31 /* FoodDetailModule.h */,
 				B53C7CEB25D7FB6000D29C31 /* Info.plist */,
 			);
@@ -84,6 +109,102 @@
 				B53C7CF725D7FB6100D29C31 /* Info.plist */,
 			);
 			path = FoodDetailModuleTests;
+			sourceTree = "<group>";
+		};
+		B53C7D0325D7FB6600D29C31 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D0625D7FB8E00D29C31 /* Model */,
+				B53C7D0F25D7FBD600D29C31 /* Repository */,
+				B53C7D1025D7FBE500D29C31 /* Data Source */,
+				B53C7D1925D7FC9A00D29C31 /* Utils */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B53C7D0425D7FB6A00D29C31 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D2825D7FCFC00D29C31 /* Model */,
+				B53C7D2F25D7FD5C00D29C31 /* Interactor */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		B53C7D0525D7FB7200D29C31 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D3425D7FDAA00D29C31 /* Dependency Injection */,
+				B53C7D3B25D7FE3300D29C31 /* Presenter */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		B53C7D0625D7FB8E00D29C31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D0725D7FB9900D29C31 /* FoodDetailResponse.swift */,
+				B53C7D0B25D7FBB900D29C31 /* NutrientDetailResposne.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B53C7D0F25D7FBD600D29C31 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D1125D7FBFB00D29C31 /* FoodRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B53C7D1025D7FBE500D29C31 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D1525D7FC3E00D29C31 /* RemoteDataSource.swift */,
+			);
+			path = "Data Source";
+			sourceTree = "<group>";
+		};
+		B53C7D1925D7FC9A00D29C31 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D1A25D7FCA600D29C31 /* Endpoint.swift */,
+				B53C7D2025D7FCAD00D29C31 /* Constant.swift */,
+				B53C7D2425D7FCB300D29C31 /* Helper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B53C7D2825D7FCFC00D29C31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D2925D7FD0800D29C31 /* FoodDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B53C7D2F25D7FD5C00D29C31 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D3025D7FD6B00D29C31 /* FoodInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		B53C7D3425D7FDAA00D29C31 /* Dependency Injection */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D3525D7FDBA00D29C31 /* Injection.swift */,
+			);
+			path = "Dependency Injection";
+			sourceTree = "<group>";
+		};
+		B53C7D3B25D7FE3300D29C31 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				B53C7D3C25D7FE4A00D29C31 /* FoodPresenter.swift */,
+			);
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +268,7 @@
 				TargetAttributes = {
 					B53C7CE625D7FB6000D29C31 = {
 						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
 					};
 					B53C7CEF25D7FB6100D29C31 = {
 						CreatedOnToolsVersion = 12.2;
@@ -194,6 +316,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B53C7D1625D7FC3E00D29C31 /* RemoteDataSource.swift in Sources */,
+				B53C7D2525D7FCB300D29C31 /* Helper.swift in Sources */,
+				B53C7D1225D7FBFB00D29C31 /* FoodRepository.swift in Sources */,
+				B53C7D0C25D7FBB900D29C31 /* NutrientDetailResposne.swift in Sources */,
+				B53C7D2A25D7FD0800D29C31 /* FoodDetailModel.swift in Sources */,
+				B53C7D3625D7FDBA00D29C31 /* Injection.swift in Sources */,
+				B53C7D0825D7FB9900D29C31 /* FoodDetailResponse.swift in Sources */,
+				B53C7D1B25D7FCA600D29C31 /* Endpoint.swift in Sources */,
+				B53C7D2125D7FCAD00D29C31 /* Constant.swift in Sources */,
+				B53C7D3125D7FD6B00D29C31 /* FoodInteractor.swift in Sources */,
+				B53C7D3D25D7FE4A00D29C31 /* FoodPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +474,7 @@
 		B53C7CFC25D7FB6100D29C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LR4V7R375P;
@@ -357,6 +491,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = aldovernando.FoodDetailModule;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +500,7 @@
 		B53C7CFD25D7FB6100D29C31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = LR4V7R375P;
@@ -389,6 +525,7 @@
 		B53C7CFF25D7FB6100D29C31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR4V7R375P;
 				INFOPLIST_FILE = FoodDetailModuleTests/Info.plist;
@@ -407,6 +544,7 @@
 		B53C7D0025D7FB6100D29C31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LR4V7R375P;
 				INFOPLIST_FILE = FoodDetailModuleTests/Info.plist;
