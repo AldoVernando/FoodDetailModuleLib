@@ -21,6 +21,7 @@
 		B53C7D3125D7FD6B00D29C31 /* FoodInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D3025D7FD6B00D29C31 /* FoodInteractor.swift */; };
 		B53C7D3625D7FDBA00D29C31 /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D3525D7FDBA00D29C31 /* Injection.swift */; };
 		B53C7D3D25D7FE4A00D29C31 /* FoodPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D3C25D7FE4A00D29C31 /* FoodPresenter.swift */; };
+		B53C7D6A25D801BF00D29C31 /* NutrientDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C7D6925D801BF00D29C31 /* NutrientDetailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B53C7D3025D7FD6B00D29C31 /* FoodInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodInteractor.swift; sourceTree = "<group>"; };
 		B53C7D3525D7FDBA00D29C31 /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
 		B53C7D3C25D7FE4A00D29C31 /* FoodPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPresenter.swift; sourceTree = "<group>"; };
+		B53C7D6925D801BF00D29C31 /* NutrientDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientDetailModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				B53C7D2925D7FD0800D29C31 /* FoodDetailModel.swift */,
+				B53C7D6925D801BF00D29C31 /* NutrientDetailModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				B53C7D1225D7FBFB00D29C31 /* FoodRepository.swift in Sources */,
 				B53C7D0C25D7FBB900D29C31 /* NutrientDetailResposne.swift in Sources */,
 				B53C7D2A25D7FD0800D29C31 /* FoodDetailModel.swift in Sources */,
+				B53C7D6A25D801BF00D29C31 /* NutrientDetailModel.swift in Sources */,
 				B53C7D3625D7FDBA00D29C31 /* Injection.swift in Sources */,
 				B53C7D0825D7FB9900D29C31 /* FoodDetailResponse.swift in Sources */,
 				B53C7D1B25D7FCA600D29C31 /* Endpoint.swift in Sources */,
