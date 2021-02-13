@@ -7,7 +7,6 @@
 
 import Foundation
 import RxSwift
-import FoodCatalogueModule
 
 protocol FoodUseCase {
     func getFoodDetail(id: String) -> Observable<FoodDetailModel>
