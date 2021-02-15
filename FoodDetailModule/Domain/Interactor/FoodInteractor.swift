@@ -20,7 +20,7 @@ public class FoodInteractor: FoodUseCase {
         self.foodRepository = repository
     }
     
-    func getFoodDetail(id: String) -> Observable<FoodDetailModel> {
+    public func getFoodDetail(id: String) -> Observable<FoodDetailModel> {
         return foodRepository.getFoodDetail(id: id)
     }
 }
