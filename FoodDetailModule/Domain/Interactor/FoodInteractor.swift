@@ -8,11 +8,11 @@
 import Foundation
 import RxSwift
 
-protocol FoodUseCase {
+public protocol FoodUseCase {
     func getFoodDetail(id: String) -> Observable<FoodDetailModel>
 }
 
-class FoodInteractor: FoodUseCase {
+public class FoodInteractor: FoodUseCase {
     
     private let foodRepository: FoodRepositoryProtocol
     
